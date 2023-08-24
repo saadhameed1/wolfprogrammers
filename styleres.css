@@ -1,0 +1,103 @@
+@media screen and (max-width: 1150px) {
+    html{
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 978px) {
+    .about .image{
+        margin-top: 2rem;
+    }
+    .contact .info .message  {
+        margin-top: 2rem;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    html{
+        font-size: 90%;
+    }
+
+    .about .image{
+        width: 25rem;
+    }
+    
+    .about .image img{
+        width: 25rem;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    html{
+        font-size:85%;
+    }
+
+    .home header .img-title {
+        padding: 0 3rem;
+    }
+    
+    .contact .info .message {
+        width: 80%;
+        height: 80%;
+    }
+    
+    .contact .info .message input {
+        width: 80%;
+        height: 80%;
+        font-size: 90%;
+    }
+    .contact .info .message #no {
+        margin-left: 3px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html{
+        font-size:80%;
+    }
+
+    .about .image{
+        width: 20rem;
+    }
+    
+    .about .image img{
+        width: 20rem;
+        
+    }
+    
+    
+    .contact .info .paragraph p{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .about .paragraph p,
+    .contact .info .paragraph p{
+        width: 70%;
+        margin: auto;
+    }
+    
+    .contact .info .paragraph span div{
+        margin-left: 5rem;
+    }
+    
+    .contact .info .message{
+        width: 70%;
+        height: 70%;
+    }
+    
+    .contact .info .message input {
+        width: 70%;
+        height: 70%;
+        font-size: 85%;
+    }
+    .contact .info .message #name {
+        width: 48%;
+    }
+    .contact .info .message #no {
+        margin-left: 2px;
+        width: 48%;
+    }
+}

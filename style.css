@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+.strip {
+    background-color: black;
+    height: 5px;
+    animation: strip .15s ease-in-out 1 alternate;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    transition: .3s ease-in-out;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav .logo {
+    margin-left: 2rem;
+    width: 5rem;
+}
+
+nav .logo img{
+    width: 8rem;
+}
+
+
+nav div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: auto 1rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: crimson;
+    transition: .2s ease-in-out;
+}
+
+nav ul #search{
+    width: 20rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    padding-left: .5rem;
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.home header {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("cover\ photo.jpg") no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+
+.home header .img-title {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+
+.home header .title {
+    text-align: left;
+}
+
+.home header .title1 {
+    font-size: 2.5rem;
+}
+
+.home header .title2 {
+    font-size: 3rem;
+}
+
+.home header .title3 {
+    font-size: 2rem;
+}
+
+.home header .title2 span {
+    font-size: 4rem;
+    color: crimson;
+}
+
+.home header .title3 span {
+    font-size: 3rem;
+    color: crimson;
+}
+
+
+@keyframes strip {
+    0% {
+        width: 0vw;
+    }
+    10% {
+        width: 15vw;
+    }
+    30% {
+        width: 40vw;
+    }
+    50% {
+        width: 60vw;
+    }
+    70% {
+        width: 85vw;
+    }
+
+    100% {
+        background-color: rgb(11, 58, 73);
+        width: 100vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+.heading{
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.heading span{
+    color: crimson;
+    font-size: 4.5rem;
+
+}
+
+
+
+
+.about .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.about .paragraph p,
+.contact .paragraph p{
+    width: 30rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2.2rem;
+    margin: 0 2rem;
+}
+
+.about .paragraph p a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.about .image{
+    width: 30rem;
+    margin: 0 2rem;
+}
+
+.about .image img{
+    width: 30rem;
+    border-radius: 50%;
+}
+
+
+
+
+.games {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("cover\ photo.jpg") no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+
+.games .info {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.games .info h1{
+    width: 11rem;
+    height: 11rem;
+    margin: 1rem;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: .5rem;
+
+}
+
+.games .info a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.contact .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.contact .info img {
+    width: 1rem;
+}
+
+.contact .paragraph p{
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact .paragraph span div{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.2rem;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact .info .message  {
+    margin: 0 2rem;
+    width: 30rem;
+}
+
+
+.contact .info .message h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: crimson;
+}
+
+.contact .info .message .name-no {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .info .message #name {
+    width: 48.5%;
+    height: 50px;
+    font-size: 1.5rem;
+}
+
+.contact .info .message #no {
+    width: 48.7%;
+    height: 50px;
+    font-size: 1.5rem;
+    margin-left: 4px;
+}
+
+.contact .info .message #email{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.contact .info .message #explain{
+    width: 100%;
+    height: 250px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.contact .info .message button{
+    background-color: crimson;
+    width: 100px;
+    height: 70px;
+    font-size: 2rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px 173px;
+}
+
+.contact .info .message button:hover{
+    background-color: white;
+    color: crimson;
+    border: 2px solid crimson;
+    transition: .2s ease-in-out;
+}
